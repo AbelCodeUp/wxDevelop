@@ -1,7 +1,7 @@
 var request = require('request');
 
 //static varible
-const url = 'xiadd.me';
+const url = 'qq.com';
 
 function getUserinfo() {
   

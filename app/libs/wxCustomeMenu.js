@@ -9,12 +9,12 @@ const token = fs.readFileSync('./token').toString();
 var menus = {
   "button": [
     {
-      "name": "测试菜单",
+      "name": "个人中心",
       "sub_button": [
         {
           "type": "view",
           "name": "授权登录",
-          "url": "http://wuyrsp3tma.proxy.qqbrowser.cc/auth"
+          "url": "http://learn.gogo-talk.com/"
         }]
     }]
 };
