@@ -1,52 +1,41 @@
-# Node.js Getting started
-在 LeanCloud 云引擎上使用 Express 的 Node.js 实例项目。
+### shorthand
+shorthand公众号开源，基于node，新手坑慎入
+`npm run dev`执行开发环境
+`npm run build`打包
+`lean up` or `node server.js` 生产环境
 
-## 一键部署
-[![Deploy to LeanEngine](http://ac-32vx10b9.clouddn.com/109bd02ee9f5875a.png)](https://leancloud.cn/1.1/engine/deploy-button)
+![微信开发交流群](https://ooo.0o0.ooo/2017/01/18/587f314e8ac5a.png)
+### 不定期更新
 
-## 本地运行
+- [nodejs微信开发---接入指南](https://segmentfault.com/a/1190000005856154)
+- [nodejs微信开发---自动回复的实现](https://segmentfault.com/a/1190000005861026)
+- [nodejs 微信开发 --- 获取access_token+自定义菜单](https://segmentfault.com/a/1190000005906009)
+- [nodejs微信开发---授权登录+获取用户信息](https://segmentfault.com/a/1190000005921102)
+- [nodejs 微信开发 --- jssdk的使用](https://segmentfault.com/a/1190000005958495)
 
-首先确认本机已经安装 [Node.js](http://nodejs.org/) 运行环境和 [LeanCloud 命令行工具](https://leancloud.cn/docs/leanengine_cli.html)，然后执行下列指令：
+#### shorthand任务清单
+标注一些shorthand的公众号需要完成的任务
 
-```
-$ git clone https://github.com/leancloud/node-js-getting-started.git
-$ cd node-js-getting-started
-```
+##### 教程部分
+- [x] 完成接入篇
 
-安装依赖：
+- [x] 完成简单的机器人聊天（示例，不是主要功能）
 
-```
-npm install
-```
+- [x] 获取access_token+自定义菜单+授权登录+获取用户信息
 
-登录并关联应用：
+- [x] js sdk的使用
 
-```
-lean login
-lean switch
-```
+- [ ] … … 待定
 
-启动项目：
+##### 公众号功能
+- [x] 知乎精选（非网页）
 
-```
-lean up
-```
+- [ ] 微博状态（非网页）
 
-之后你就可以在 [localhost:3000](http://localhost:3000) 访问到你的应用了。
+- [ ] 表白墙功能 （？待定是否用得着）
 
-## 部署到 LeanEngine
+- [ ] rss阅读（网页，是公众号还是网站待定）
 
-部署到预备环境（若无预备环境则直接部署到生产环境）：
-```
-lean deploy
-```
+- [ ] 草榴抓取🔞🔞🔞？
 
-## 相关文档
-
-* [云函数开发指南](https://leancloud.cn/docs/leanengine_cloudfunction_guide-node.html)
-* [网站托管开发指南](https://leancloud.cn/docs/leanengine_webhosting_guide-node.html)
-* [JavaScript 开发指南](https://leancloud.cn/docs/leanstorage_guide-js.html)
-* [JavaScript SDK API](https://leancloud.github.io/javascript-sdk/docs/)
-* [Node.js SDK API](https://github.com/leancloud/leanengine-node-sdk/blob/master/API.md)
-* [命令行工具使用指南](https://leancloud.cn/docs/leanengine_cli.html)
-* [云引擎常见问题和解答](https://leancloud.cn/docs/leanengine_faq.html)
+- [ ] … … 待定
