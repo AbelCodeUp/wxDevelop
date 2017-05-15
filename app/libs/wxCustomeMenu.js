@@ -14,7 +14,7 @@ var menus = {
         {
           "type": "view",
           "name": "授权登录",
-          "url": "http://learn.gogo-talk.com/"
+          "url": "http://learn.gogo-talk.com"
         }]
     }]
 };
